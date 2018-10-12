@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+/*.tablink {
+  background-color: #555;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 50%;
+}*/
+.tab1{
+  display: flex;
+  justify-content: center;
+
+}
+.tablink{
+  width: 50%;
+  padding: 15px;
+  outline: none;
+  border: none;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+.tabcontent {
+  color: black;
+  display: none;
+/*  padding: 100px 20px;*/
+  height: 100%;
+}
+
+#Home {background-color: lightgrey;}
+#News {background-color: lightgrey;}
+#Contact {background-color:lightgrey;}
+#About {background-color:lightgrey;}
+#one {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#one td{
+    border: 1px solid white;
+    padding: 8px;
+}
+
+#one tr:nth-child(even){background-color: #f2f2f2;}
+
+#one tr:hover {background-color: #ddd;}
+
+#one th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    padding-left: 10px;
+    background-color: lightgrey;
+    color: white;
+}
